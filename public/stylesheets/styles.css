@@ -1,0 +1,67 @@
+import { PRIMARY_GREEN } from 'lib/colors'
+
+body {
+  font-family: 'arial';
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: PRIMARY_GREEN;
+}
+
+a:hover {
+  color: #3c69e4;
+}
+
+.apexcharts-xaxis-title-text {
+  font-weight: bold;
+}
+
+.apexcharts-yaxis-title-text {
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Apercu';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://res.cloudinary.com/irl/raw/upload/v1566341237/fonts/apercu/apercu-regular.woff2')
+      format('woff2'),
+    url('https://res.cloudinary.com/irl/raw/upload/v1566341237/fonts/apercu/apercu-regular.woff')
+      format('woff'),
+    url('https://res.cloudinary.com/irl/raw/upload/v1566341237/fonts/apercu/apercu-regular.ttf')
+      format('truetype'),
+    url('https://res.cloudinary.com/irl/raw/upload/v1566341237/fonts/apercu/apercu-regular.eot')
+      format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'Apercu';
+  font-style: normal;
+  font-weight: 300;
+  src: url('https://res.cloudinary.com/irl/raw/upload/v1566341237/fonts/apercu/apercu-light.woff2')
+      format('woff2'),
+    url('https://res.cloudinary.com/irl/raw/upload/v1566341237/fonts/apercu/apercu-light.woff')
+      format('woff'),
+    url('https://res.cloudinary.com/irl/raw/upload/v1566341237/fonts/apercu/apercu-light.ttf')
+      format('truetype'),
+    url('https://res.cloudinary.com/irl/raw/upload/v1566341237/fonts/apercu/apercu-light.eot')
+      format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'Apercu';
+  font-style: normal;
+  font-weight: 500;
+  src: url('https://res.cloudinary.com/irl/raw/upload/v1566341237/fonts/apercu/apercu-medium.woff2')
+      format('woff2'),
+    url('https://res.cloudinary.com/irl/raw/upload/v1566341237/fonts/apercu/apercu-medium.woff')
+      format('woff'),
+    url('https://res.cloudinary.com/irl/raw/upload/v1566341237/fonts/apercu/apercu-medium.ttf')
+      format('truetype'),
+    url('https://res.cloudinary.com/irl/raw/upload/v1566341237/fonts/apercu/apercu-medium.eot')
+      format('embedded-opentype');
+}

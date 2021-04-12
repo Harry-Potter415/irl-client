@@ -1,0 +1,5 @@
+export const PRIMARY_GREEN = '#156052'
+export const LIGHT_GREEN = '#C4E3BF'
+export const ALMOND = '#EFD9C5'
+export const DARK_BLUE = '#2E3188'
+export const RED = '#E55029'
